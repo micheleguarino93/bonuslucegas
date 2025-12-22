@@ -163,55 +163,45 @@ footer {
    ASIDE
 ========================= */
 aside {
-    border-left: 3px solid var(--color-border);
-    padding: 1.25rem;
+    background-color: #f2f8ff;          /* celeste molto chiaro */
+    border-left: 4px solid #cfe4ff;      /* accento leggero */
+    padding: 1.25rem 1.5rem;
     margin: 2rem 0;
-    background-color: #fafafa;
+    border-radius: 8px;
+
     font-size: 0.95rem;
+    color: #1a1a1a;
 }
 
-/* Titolo dell'aside */
+/* Titolo interno (opzionale) */
 aside h2,
 aside h3 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-bottom: 0.75rem;
-    color: var(--color-text);
 }
 
-/* Testo */
+/* Paragrafi */
 aside p {
     margin-bottom: 0.75rem;
-    color: var(--color-muted);
+    color: #333;
 }
 
 /* Liste */
 aside ul {
-    list-style: none;
-    padding-left: 0;
+    padding-left: 1.25rem;
+    margin-bottom: 0.75rem;
 }
 
 aside li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
 }
 
 /* Link */
 aside a {
-    text-decoration: none;
-    color: var(--color-link);
+    color: #005fcc;
     font-weight: 500;
 }
 
 aside a:hover {
     text-decoration: underline;
-    color: var(--color-link-hover);
-}
-
-/* =========================
-   VARIANTE "CARD"
-========================= */
-aside.card {
-    border: 1px solid var(--color-border);
-    border-left: none;
-    border-radius: var(--radius);
-    background-color: #ffffff;
 }
